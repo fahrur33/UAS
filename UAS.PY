@@ -2,7 +2,7 @@ print("pilih metode pencarian: ")
 print ("1. sequential search")
 print("2. binary search")
 
-i = input("masukkan pilihan anda: ")
+i = input("masukkan pilihan anda dengan tekan 1/2: ")
 
 if i=="1":
     
@@ -15,7 +15,6 @@ if i=="1":
                 break
             else:
                 a += 1
-                #print ("nilai", value, "tidak ditemukan")
         
         if temp:
             print ("nilai", nilai,"ada")
