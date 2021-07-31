@@ -40,7 +40,7 @@ elif i == "2":
                 f = True
                 break
             else:
-                if (c<b[g]):
+                if (c<b):
                     e=g-1
                 else:
                     d=g+1
